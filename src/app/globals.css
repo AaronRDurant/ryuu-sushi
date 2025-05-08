@@ -2,9 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* === Typography Defaults === */
+:root {
+  --font-playfair: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+/* Global body defaults */
 body {
-  @apply antialiased text-white bg-black;
+  @apply font-sans antialiased text-white bg-black;
+  font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-playfair);
 }
 
 ::selection {

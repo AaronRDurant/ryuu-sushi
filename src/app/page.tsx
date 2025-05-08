@@ -1,14 +1,25 @@
+import Hero from "../components/Hero";
+import SplitSection from "../components/SplitSection";
+import MenuHighlight from "../components/MenuHighlight";
+import PhotoGrid from "../components/PhotoGrid";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex items-center justify-center px-4">
-      <div className="text-center">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-wide mb-4 font-[var(--font-playfair)]">
-          Ryuu Sushi Lounge
-        </h1>
-        <p className="text-lg md:text-xl text-gray-300 max-w-md mx-auto">
-          A luxurious sushi experience, opening soon in Metro Detroit.
-        </p>
-      </div>
-    </main>
+    <>
+      <Hero />
+      <SplitSection
+        title="A Curated Dining Experience"
+        text="Everything from the ambiance to the fish is obsessively crafted."
+        image="/images/experience.jpg"
+      />
+      <SplitSection
+        title="Our Ingredients"
+        text="We fly in the finest fish from Tokyo to LA daily. Nothing frozen."
+        image="/images/ingredients.jpg"
+        reverse
+      />
+      <MenuHighlight />
+      <PhotoGrid />
+    </>
   );
 }
