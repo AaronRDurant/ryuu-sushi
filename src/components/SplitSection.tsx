@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface SplitSectionProps {
   title: string;
   text: string;
@@ -19,9 +21,11 @@ export default function SplitSection({
         } items-center max-w-6xl mx-auto gap-8 px-4`}
       >
         <div className="md:w-1/2">
-          <img
+          <Image
             src={image}
             alt={title}
+            width={800}
+            height={600}
             className="w-full h-auto rounded-lg object-cover"
           />
         </div>

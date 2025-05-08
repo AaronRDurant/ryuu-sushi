@@ -25,6 +25,9 @@ export default function Navbar() {
             <Link href="/menu">Menu</Link>
           </li>
           <li>
+            <Link href="/about">About</Link>
+          </li>
+          <li>
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
@@ -36,6 +39,11 @@ export default function Navbar() {
             <li>
               <Link href="/menu" onClick={() => setMenuOpen(false)}>
                 Menu
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" onClick={() => setMenuOpen(false)}>
+                About
               </Link>
             </li>
             <li>
