@@ -9,13 +9,13 @@ export default function Home() {
       <Hero />
       <SplitSection
         title="A Curated Dining Experience"
-        text="Everything from the ambiance to the fish is obsessively crafted."
-        image="/images/experience.jpg"
+        text="From our signature rolls to handcrafted appetizers, every dish is designed to impress — visually and flavorfully."
+        image="/images/split-placeholder.jpg"
       />
       <SplitSection
-        title="Our Ingredients"
-        text="We fly in the finest fish from Tokyo to LA daily. Nothing frozen."
-        image="/images/ingredients.jpg"
+        title="Obsessively Selected Ingredients"
+        text="Our bluefin, hamachi, and salmon are sourced for quality and freshness — plated raw, seared, or tempura-battered with precision."
+        image="/images/split-placeholder.jpg"
         reverse
       />
       <MenuHighlight />

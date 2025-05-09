@@ -1,19 +1,25 @@
+import Link from "next/link";
+
 export default function MenuHighlight() {
   return (
-    <section
-      className="relative h-96 bg-center bg-cover bg-no-repeat"
-      style={{ backgroundImage: "url('/images/menu-placeholder.jpg')" }}
-    >
-      <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center px-4">
-        <h2 className="text-2xl md:text-3xl font-serif mb-4">
+    <section className="relative h-96 w-full border-y border-white/10 shadow-inner overflow-hidden">
+      {/* Background image */}
+      <div
+        className="absolute inset-0 bg-center bg-cover bg-no-repeat bg-fixed"
+        style={{ backgroundImage: "url('/images/menu-placeholder.jpg')" }}
+      />
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/50 backdrop-blur-sm flex flex-col items-center justify-center text-center px-4">
+        <h2 className="text-3xl md:text-4xl font-serif mb-4 drop-shadow-md">
           Explore Our Menu
         </h2>
-        <a
+        <Link
           href="/menu"
-          className="bg-white text-black px-6 py-2 rounded-full text-sm uppercase tracking-wide"
+          className="bg-white text-black px-6 py-3 rounded-full text-sm uppercase tracking-wide hover:bg-neutral-200 transition"
         >
           View Menu
-        </a>
+        </Link>
       </div>
     </section>
   );
