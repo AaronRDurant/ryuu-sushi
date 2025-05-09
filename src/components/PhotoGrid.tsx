@@ -2,17 +2,14 @@ import Image from "next/image";
 
 export default function PhotoGrid() {
   return (
-    <section className="py-12 px-4 max-w-6xl mx-auto">
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-        {[1, 2, 3, 4, 5, 6].map((n) => (
-          <div
-            key={n}
-            className="aspect-square bg-gray-800 rounded-lg overflow-hidden"
-          >
+    <section className="py-16 px-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 max-w-6xl mx-auto">
+        {Array.from({ length: 6 }).map((_, i) => (
+          <div key={i} className="overflow-hidden">
             <Image
-              src={`/images/photo${n}.jpg`}
-              alt={`Sushi ${n}`}
-              width={400}
+              src="/images/split-placeholder.jpg"
+              alt={`Gallery ${i + 1}`}
+              width={600}
               height={400}
               className="w-full h-full object-cover"
             />
