@@ -1,13 +1,34 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center text-center px-4 pt-20">
-      <div>
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 font-serif">
-          Ryuu Sushi Lounge
+    <section className="relative h-screen w-full text-white overflow-hidden">
+      {/* Background image */}
+      <Image
+        src="/images/hero-placeholder.jpg" // placeholder image
+        alt="Sushi Platter"
+        fill
+        className="object-cover"
+        priority
+      />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/60" />
+
+      {/* Content */}
+      <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6 py-24 sm:py-32">
+        <h1 className="text-4xl md:text-6xl font-serif font-semibold tracking-wide mb-4 drop-shadow-sm">
+          A Modern Sushi Experience
         </h1>
-        <p className="text-lg md:text-xl text-gray-300 max-w-xl mx-auto">
-          A refined sushi experience, opening soon in Metro Detroit.
+        <p className="text-lg md:text-xl text-white/70 max-w-xl mb-6 leading-relaxed">
+          Premium ingredients, artistic presentation, and unforgettable flavor.
         </p>
+        <Link
+          href="/menu"
+          className="bg-white text-black px-6 py-3 rounded-full text-sm uppercase tracking-wider hover:bg-neutral-200 transition-all duration-200"
+        >
+          View Menu
+        </Link>
       </div>
     </section>
   );
