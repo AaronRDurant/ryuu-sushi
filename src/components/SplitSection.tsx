@@ -27,15 +27,17 @@ export default function SplitSection({
             alt={title}
             width={800}
             height={600}
-            className="w-full h-auto rounded-lg object-cover shadow-md"
+            className="w-full h-auto object-cover shadow-md"
             priority
           />
         </div>
 
         {/* Text */}
         <div className="md:w-1/2 w-full text-center md:text-left max-w-md">
-          <h2 className="text-3xl font-serif mb-4">{title}</h2>
-          <p className="text-white/70 leading-relaxed text-base md:text-lg">
+          <h2 className="text-3xl md:text-4xl font-heading uppercase tracking-wider mb-4">
+            {title}
+          </h2>
+          <p className="text-white/70 leading-relaxed text-base md:text-lg font-sans">
             {text}
           </p>
         </div>

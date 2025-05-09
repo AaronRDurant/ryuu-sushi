@@ -11,12 +11,12 @@ export default function MenuHighlight() {
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50 backdrop-blur-sm flex flex-col items-center justify-center text-center px-4">
-        <h2 className="text-3xl md:text-4xl font-serif mb-4 drop-shadow-md">
+        <h2 className="text-3xl md:text-4xl font-heading uppercase tracking-wider mb-4 drop-shadow-md">
           Explore Our Menu
         </h2>
         <Link
           href="/menu"
-          className="bg-white text-black px-6 py-3 rounded-full text-sm uppercase tracking-wide hover:bg-neutral-200 transition"
+          className="bg-white text-black px-6 py-3 rounded-full text-sm uppercase tracking-wider hover:bg-neutral-200 transition font-heading"
         >
           View Menu
         </Link>

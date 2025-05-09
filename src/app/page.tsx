@@ -5,7 +5,7 @@ import PhotoGrid from "../components/PhotoGrid";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Hero />
       <SplitSection
         title="A Curated Dining Experience"
@@ -20,6 +20,6 @@ export default function Home() {
       />
       <MenuHighlight />
       <PhotoGrid />
-    </>
+    </main>
   );
 }

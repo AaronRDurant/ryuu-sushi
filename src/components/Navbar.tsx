@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
-import { useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -57,7 +56,7 @@ export default function Navbar() {
           {menuOpen ? "✕" : "☰"}
         </button>
 
-        <ul className="hidden md:flex gap-6 text-sm uppercase tracking-wider">
+        <ul className="hidden md:flex gap-6 text-base uppercase tracking-wider font-heading">
           <li>
             <Link
               href="/menu"
@@ -100,15 +99,15 @@ export default function Navbar() {
               priority
             />
             <div className="relative z-10 h-full flex flex-col justify-end items-start pl-6 pr-4 pb-4 text-white">
-              <p className="text-sm text-white/70 mb-1">Hello,</p>
-              <h2 className="text-3xl font-serif font-semibold">
+              <p className="text-sm text-white/70 mb-1 font-sans">Hello,</p>
+              <h2 className="text-3xl font-heading font-semibold">
                 Welcome to Ryuu
               </h2>
             </div>
           </div>
 
           {/* Menu items (bottom-right aligned) */}
-          <ul className="flex flex-col items-end text-lg text-white/90 space-y-6 pr-6">
+          <ul className="flex flex-col items-end text-xl text-white/90 space-y-6 pr-6 font-heading">
             {["Menu", "About", "Contact"].map((item) => (
               <li key={item} className="flex flex-col items-end">
                 <Link
