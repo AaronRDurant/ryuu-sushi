@@ -37,9 +37,9 @@ export default function AboutPage() {
         </p>
 
         <p>
-          At Ryuu, you're not just eating sushi — you're witnessing the work of
-          a true sushi artist who takes pride in transforming fresh ingredients
-          into unforgettable culinary moments.
+          At Ryuu, you&apos;re not just eating sushi — you&apos;re witnessing
+          the work of a true sushi artist who takes pride in transforming fresh
+          ingredients into unforgettable culinary moments.
         </p>
       </div>
     </main>

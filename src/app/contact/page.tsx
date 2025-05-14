@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function ContactPage() {
   return (
     <main className="min-h-screen px-4 pt-24 pb-20 max-w-2xl mx-auto text-center">

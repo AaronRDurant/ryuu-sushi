@@ -16,8 +16,34 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Ryuu Sushi Lounge",
-  description: "A luxurious sushi experience in Metro Detroit.",
+  title: "Ryuu Sushi Lounge | Grosse Pointe",
+  description:
+    "Fresh, artfully crafted sushi and Japanese cuisine in the heart of Grosse Pointe. Signature rolls, omakase, and unforgettable dining.",
+  // metadataBase: new URL("https://www.ryuusushi.com"),
+  openGraph: {
+    title: "Ryuu Sushi Lounge | Grosse Pointe",
+    description:
+      "Fresh, artfully crafted sushi and Japanese cuisine in the heart of Grosse Pointe.",
+    url: "https://www.ryuusushi.com",
+    siteName: "Ryuu Sushi Lounge",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Ryuu Sushi Lounge",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ryuu Sushi Lounge | Grosse Pointe",
+    description:
+      "Fresh, artfully crafted sushi and Japanese cuisine in the heart of Grosse Pointe.",
+    images: ["/images/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
@@ -27,6 +53,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${barlowCondensed.variable}`}>
+      <head>
+        <link
+          rel="icon"
+          type="image/png"
+          href="/images/favicon-96x96.png"
+          sizes="96x96"
+        />
+        <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/images/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="/images/site.webmanifest" />
+        <meta name="theme-color" content="#000000" />
+      </head>
       <body className="font-sans antialiased bg-black text-white">
         <Navbar />
         {children}
