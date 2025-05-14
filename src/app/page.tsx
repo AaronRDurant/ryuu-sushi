@@ -10,12 +10,12 @@ export default function Home() {
       <SplitSection
         title="A Curated Dining Experience"
         text="From our signature rolls to handcrafted appetizers, every dish is designed to impress — visually and flavorfully."
-        image="/images/split-placeholder.jpg"
+        image="/images/Ryuu-Sushi-presentation.jpg"
       />
       <SplitSection
         title="Obsessively Selected Ingredients"
         text="Our bluefin, hamachi, and salmon are sourced for quality and freshness — plated raw, seared, or tempura-battered with precision."
-        image="/images/split-placeholder.jpg"
+        image="/images/Ryuu-Sushi-flame-presentation.jpg"
         reverse
       />
       <MenuHighlight />

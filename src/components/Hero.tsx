@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="relative h-screen w-full text-white overflow-hidden">
       {/* Background image */}
       <Image
-        src="/images/hero-placeholder.jpg"
+        src="/images/Ryuu-Sushi-flame-hero.jpg"
         alt="Sushi Platter"
         fill
         className="object-cover"

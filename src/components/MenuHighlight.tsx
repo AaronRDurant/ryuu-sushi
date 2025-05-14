@@ -6,7 +6,7 @@ export default function MenuHighlight() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-center bg-cover bg-no-repeat bg-fixed"
-        style={{ backgroundImage: "url('/images/menu-placeholder.jpg')" }}
+        style={{ backgroundImage: "url('/images/Ryuu-Sushi-menu.jpg')" }}
       />
 
       {/* Overlay */}
