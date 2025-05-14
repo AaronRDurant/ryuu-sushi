@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background image */}
       <Image
         src="/images/Ryuu-Sushi-flame-hero.jpg"
-        alt="Sushi Platter"
+        alt="Ryuu Sushi dish flame preparation"
         fill
         className="object-cover"
         priority
@@ -18,11 +18,12 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-6 py-24 sm:py-32">
-        <h1 className="text-4xl md:text-6xl font-heading font-semibold mb-4 drop-shadow-sm">
-          A Modern Sushi Experience
+        <h1 className="text-4xl md:text-6xl font-heading font-semibold mb-4 drop-shadow-sm uppercase tracking-wide">
+          Refined. Vibrant. Unforgettable.
         </h1>
         <p className="text-lg md:text-xl text-white/70 max-w-xl mb-6 leading-relaxed font-sans">
-          Premium ingredients, artistic presentation, and unforgettable flavor.
+          An immersive sushi experience with premium ingredients and artistic
+          presentation.
         </p>
         <Link
           href="/menu"

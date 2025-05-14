@@ -9,12 +9,12 @@ export default function Home() {
       <Hero />
       <SplitSection
         title="A Curated Dining Experience"
-        text="From our signature rolls to handcrafted appetizers, every dish is designed to impress — visually and flavorfully."
+        text="From Lobster Cigars to the Empire Heat roll, every dish is crafted for visual impact and unforgettable flavor."
         image="/images/Ryuu-Sushi-presentation.jpg"
       />
       <SplitSection
         title="Obsessively Selected Ingredients"
-        text="Our bluefin, hamachi, and salmon are sourced for quality and freshness — plated raw, seared, or tempura-battered with precision."
+        text="We source premium bluefin, hamachi, and salmon for our sashimi, signature rolls, and flame-finished creations."
         image="/images/Ryuu-Sushi-flame-presentation.jpg"
         reverse
       />
