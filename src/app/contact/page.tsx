@@ -25,9 +25,16 @@ export default function ContactPage() {
           <p className="font-semibold uppercase text-sm tracking-wide text-white/60 mb-1">
             Phone
           </p>
-          <a href="tel:13133325230" className="hover:underline">
-            (313) 332-5230
+          <a href="tel:13134169083" className="hover:underline">
+            (313) 416-9083
           </a>
+        </div>
+
+        <div>
+          <p className="font-semibold uppercase text-sm tracking-wide text-white/60 mb-1">
+            Hours
+          </p>
+          <p>Tuesday – Sunday: 4–10 pm</p>
         </div>
 
         <div>
