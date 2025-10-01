@@ -15,13 +15,16 @@ export default function MenuPage() {
           items: [
             [
               "Black Edamame (Black)",
-              "Steamed / Seasoned with Truffle Salt – $6",
+              "Steamed / Seasoned with Truffle Salt – $7",
             ],
             [
               "Gyoza (Steamed or Pan-Fried)",
               "Choice of Angus Beef or Veggie – 6pc $10 / 3pc $5",
             ],
-            ["Seaweed Salad", "Marinated seaweed with sesame dressing – $5"],
+            [
+              "Seaweed Salad",
+              "Marinated seaweed tossed in a light sesame dressing – $7",
+            ],
             [
               "Lobster Cigar",
               "Lobster & Crab Mix, Avocado, Cream Cheese, Spring Roll Sheet – $18",
@@ -179,11 +182,11 @@ export default function MenuPage() {
             ["House Salad", "– $6"],
             [
               "Tuna Salad",
-              "Tuna Poke, Mixed Greens, Avocado, Poke Soy Sauce – $14",
+              "Tuna Poke, Mixed Greens, Avocado, Poke Soy Sauce – $16",
             ],
             [
               "Salmon Salad",
-              "Salmon Poke, Mixed Greens, Avocado, Poke Soy Sauce – $14",
+              "Salmon Poke, Mixed Greens, Avocado, Poke Soy Sauce – $16",
             ],
           ],
         },
@@ -192,14 +195,14 @@ export default function MenuPage() {
           items: [
             [
               "Chef’s Select",
-              "6pc Chef’s Choice Sushi + California Roll – $24",
+              "6pc Chef’s Choice Sushi + California Roll – $28",
             ],
-            ["Tokyo Ten", "10pc Chef’s Choice Sushi + California Roll – $30"],
+            ["Tokyo Ten", "10pc Chef’s Choice Sushi + California Roll – $36"],
             [
               "Ocean’s Twelve",
-              "12pc Chef’s Choice Sashimi + Salmon Roll – $38",
+              "12pc Chef’s Choice Sashimi + Salmon Roll – $45",
             ],
-            ["The Deep End", "18pc Chef’s Choice Sashimi + Tuna Roll – $55"],
+            ["The Deep End", "18pc Chef’s Choice Sashimi + Tuna Roll – $65"],
           ],
         },
       ].map((section) => (
