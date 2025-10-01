@@ -16,14 +16,14 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Ryuu Sushi Lounge | Grosse Pointe",
+  title: "Ryuu Sushi Lounge",
   description:
-    "Fresh, artfully crafted sushi and Japanese cuisine in the heart of Grosse Pointe. Signature rolls, omakase, and unforgettable dining.",
-  // metadataBase: new URL("https://www.ryuusushi.com"),
+    "Fresh, artfully crafted sushi and Japanese cuisine in Grosse Pointe and Plymouth, Michigan. Signature rolls, omakase, and unforgettable dining.",
+  metadataBase: new URL("https://www.ryuusushi.com"),
   openGraph: {
     title: "Ryuu Sushi Lounge | Grosse Pointe",
     description:
-      "Fresh, artfully crafted sushi and Japanese cuisine in the heart of Grosse Pointe.",
+      "Fresh, artfully crafted sushi and Japanese cuisine in Grosse Pointe and Plymouth, Michigan.",
     url: "https://www.ryuusushi.com",
     siteName: "Ryuu Sushi Lounge",
     images: [
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ryuu Sushi Lounge | Grosse Pointe",
+    title: "Ryuu Sushi Lounge",
     description:
-      "Fresh, artfully crafted sushi and Japanese cuisine in the heart of Grosse Pointe.",
+      "Fresh, artfully crafted sushi and Japanese cuisine in Grosse Pointe and Plymouth, Michigan.",
     images: ["/images/og-image.jpg"],
   },
 };
