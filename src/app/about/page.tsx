@@ -23,10 +23,15 @@ export default function AboutPage() {
         <p>
           With over 15 years of experience in top sushi kitchens across the
           country, Chef James Lee brings an elite level of craftsmanship and
-          creativity to Ryuu Sushi in Grosse Pointe. From the vibrant flavors of
-          Milwaukee to the refined kitchens of Ann Arbor and the raw beauty of
-          Anchorage, Chef Lee has honed a style all his own — one rooted in
-          tradition, yet fearless in innovation.
+          creativity to Ryuu Sushi Lounge — now proudly serving guests in
+          <span className="whitespace-nowrap"> Grosse Pointe</span> and
+          <span className="whitespace-nowrap">
+            {" "}
+            downtown Plymouth, Michigan
+          </span>
+          . From the vibrant flavors of Milwaukee to the refined kitchens of Ann
+          Arbor and the raw beauty of Anchorage, Chef Lee has honed a style all
+          his own — one rooted in tradition, yet fearless in innovation.
         </p>
 
         <p>

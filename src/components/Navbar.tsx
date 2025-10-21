@@ -75,10 +75,10 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/contact"
+              href="/locations"
               className="text-white/80 hover:text-white transition"
             >
-              Contact
+              Locations
             </Link>
           </li>
         </ul>
@@ -108,14 +108,14 @@ export default function Navbar() {
 
           {/* Menu items (bottom-right aligned) */}
           <ul className="flex flex-col items-end text-xl text-white/90 space-y-6 pr-6 font-heading">
-            {["Menu", "About", "Contact"].map((item) => (
-              <li key={item} className="flex flex-col items-end">
+            {["menu", "about", "locations"].map((slug) => (
+              <li key={slug}>
                 <Link
-                  href={`/${item.toLowerCase()}`}
+                  href={`/${slug}`}
                   onClick={() => setMenuOpen(false)}
                   className="hover:text-white transition"
                 >
-                  {item}
+                  {slug.charAt(0).toUpperCase() + slug.slice(1)}
                 </Link>
               </li>
             ))}
