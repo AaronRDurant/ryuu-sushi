@@ -36,9 +36,10 @@ export default function AboutPage() {
 
         <p>
           His passion for sushi is matched only by his passion for people. Chef
-          Lee specializes in Omakase, the revered Japanese dining experience
-          where each dish is a surprise, a story, and a signature. Every plate
-          is a bold expression of seasonality, artistry, and soul.
+          Lee offers an omakase dining experience with advance notice — a
+          chef-curated experience where each dish is a surprise, a story, and a
+          signature. Every plate is a bold expression of seasonality, artistry,
+          and soul.
         </p>
 
         <p>
