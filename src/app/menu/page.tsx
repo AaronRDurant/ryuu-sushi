@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Menu",
+  description:
+    "Signature rolls, classic house rolls, specialty and tempura rolls, sushi platters, and more. Ryuu Sushi Lounge — Grosse Pointe and Plymouth, Michigan.",
+};
+
 export default function MenuPage() {
   return (
-    <main className="min-h-screen px-4 pt-24 pb-20 max-w-2xl mx-auto">
+    <main id="main" className="min-h-screen px-4 pt-24 pb-20 max-w-2xl mx-auto">
       <h1 className="text-4xl md:text-5xl font-heading mb-6 text-center">
         Our Menu
       </h1>
@@ -194,15 +202,15 @@ export default function MenuPage() {
           title: "Sushi & Sashimi Platters",
           items: [
             [
-              "Chef’s Select",
-              "6pc Chef’s Choice Sushi + California Roll – $28",
+              "Chef's Select",
+              "6pc Chef's Choice Sushi + California Roll – $28",
             ],
-            ["Tokyo Ten", "10pc Chef’s Choice Sushi + California Roll – $36"],
+            ["Tokyo Ten", "10pc Chef's Choice Sushi + California Roll – $36"],
             [
-              "Ocean’s Twelve",
-              "12pc Chef’s Choice Sashimi + Salmon Roll – $45",
+              "Ocean's Twelve",
+              "12pc Chef's Choice Sashimi + Salmon Roll – $45",
             ],
-            ["The Deep End", "18pc Chef’s Choice Sashimi + Tuna Roll – $65"],
+            ["The Deep End", "18pc Chef's Choice Sashimi + Tuna Roll – $65"],
           ],
         },
       ].map((section) => (

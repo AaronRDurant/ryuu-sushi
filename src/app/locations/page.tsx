@@ -1,6 +1,17 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Locations",
+  description:
+    "Visit Ryuu Sushi Lounge in Grosse Pointe and Plymouth, Michigan. Addresses, hours, reservations, and contact.",
+};
+
 export default function LocationsPage() {
   return (
-    <main className="min-h-screen px-4 pt-24 pb-20 max-w-2xl mx-auto text-center">
+    <main
+      id="main"
+      className="min-h-screen px-4 pt-24 pb-20 max-w-2xl mx-auto text-center"
+    >
       <h1 className="text-4xl md:text-5xl font-heading mb-6">Ryuu Locations</h1>
 
       <p className="text-lg text-white/80 font-sans mb-8 leading-relaxed">

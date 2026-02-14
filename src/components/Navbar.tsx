@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ export default function Navbar() {
         menuRef.current &&
         !menuRef.current.contains(event.target as Node) &&
         !(event.target as HTMLElement).closest(
-          "button[aria-label='Toggle menu']"
+          "button[aria-label='Toggle menu']",
         )
       ) {
         setMenuOpen(false);

@@ -25,3 +25,9 @@ h3,
 ::selection {
   @apply bg-white text-black;
 }
+
+/* Focus visible for keyboard users */
+a:focus-visible,
+button:focus-visible {
+  @apply outline-none ring-2 ring-white ring-offset-2 ring-offset-black;
+}

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Barlow_Condensed } from "next/font/google";
-import "./globals.css";
-import Navbar from "../components/Navbar";
+import { Barlow_Condensed, Inter } from "next/font/google";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -16,12 +16,12 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Ryuu Sushi Lounge",
+  title: { default: "Ryuu Sushi Lounge", template: "%s — Ryuu Sushi Lounge" },
   description:
     "Fresh, artfully crafted sushi and Japanese cuisine in Grosse Pointe and Plymouth, Michigan. Signature rolls, omakase, and unforgettable dining.",
   metadataBase: new URL("https://www.ryuusushi.com"),
   openGraph: {
-    title: "Ryuu Sushi Lounge | Grosse Pointe",
+    title: "Ryuu Sushi Lounge",
     description:
       "Fresh, artfully crafted sushi and Japanese cuisine in Grosse Pointe and Plymouth, Michigan.",
     url: "https://www.ryuusushi.com",
@@ -71,6 +71,12 @@ export default function RootLayout({
         <meta name="theme-color" content="#000000" />
       </head>
       <body className="font-sans antialiased bg-black text-white">
+        <a
+          href="#main"
+          className="fixed left-4 top-4 z-[100] -translate-y-[200%] focus:translate-y-0 px-4 py-2 bg-white text-black rounded-md font-heading text-sm uppercase tracking-wider transition-transform focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
+        >
+          Skip to main content
+        </a>
         <Navbar />
         {children}
         <Footer />

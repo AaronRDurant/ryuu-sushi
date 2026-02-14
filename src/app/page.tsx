@@ -1,11 +1,11 @@
 import Hero from "../components/Hero";
-import SplitSection from "../components/SplitSection";
 import MenuHighlight from "../components/MenuHighlight";
 import PhotoGrid from "../components/PhotoGrid";
+import SplitSection from "../components/SplitSection";
 
 export default function Home() {
   return (
-    <main>
+    <main id="main">
       <Hero />
       <SplitSection
         title="A Curated Dining Experience"

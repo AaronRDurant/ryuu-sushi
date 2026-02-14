@@ -1,8 +1,15 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Chef James Lee brings over 15 years of craftsmanship to Ryuu Sushi Lounge. Omakase, signature rolls, and artful sushi in Grosse Pointe and Plymouth, Michigan.",
+};
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen px-4 pt-24 pb-20 max-w-3xl mx-auto">
+    <main id="main" className="min-h-screen px-4 pt-24 pb-20 max-w-3xl mx-auto">
       <h1 className="text-4xl md:text-5xl font-heading mb-8 text-center">
         Chef James Lee
       </h1>
