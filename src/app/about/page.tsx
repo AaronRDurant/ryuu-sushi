@@ -4,7 +4,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Chef James Lee brings over 15 years of craftsmanship to Ryuu Sushi Lounge. Omakase, signature rolls, and artful sushi in Grosse Pointe and Plymouth, Michigan.",
+    "Chef James Lee brings over 15 years of craftsmanship to Ryuu Sushi Lounge. Omakase, signature rolls, and artful sushi in Plymouth, Michigan.",
 };
 
 export default function AboutPage() {
@@ -31,12 +31,7 @@ export default function AboutPage() {
           With over 15 years of experience in top sushi kitchens across the
           country, Chef James Lee brings an elite level of craftsmanship and
           creativity to Ryuu Sushi Lounge — now proudly serving guests in
-          <span className="whitespace-nowrap"> Grosse Pointe</span> and
-          <span className="whitespace-nowrap">
-            {" "}
-            downtown Plymouth, Michigan
-          </span>
-          . From the vibrant flavors of Milwaukee to the refined kitchens of Ann
+          <span className="whitespace-nowrap"> downtown Plymouth, Michigan</span>. From the vibrant flavors of Milwaukee to the refined kitchens of Ann
           Arbor and the raw beauty of Anchorage, Chef Lee has honed a style all
           his own — one rooted in tradition, yet fearless in innovation.
         </p>

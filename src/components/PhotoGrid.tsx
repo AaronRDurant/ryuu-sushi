@@ -8,7 +8,7 @@ export default function PhotoGrid() {
         <div className="w-full md:w-1/2 h-[28rem]">
           <Image
             src="/images/Ryuu-Sushi-entrance.jpg"
-            alt="Ryuu Sushi Grosse Pointe restaurant entrance doors"
+            alt="Ryuu Sushi Lounge restaurant entrance"
             width={600}
             height={850}
             className="w-full h-full object-cover"
@@ -23,7 +23,7 @@ export default function PhotoGrid() {
           <div className="h-1/2">
             <Image
               src="/images/Ryuu-Sushi-cocktail.jpg"
-              alt="Cocktail at Ryuu Sushi Grosse Pointe bar"
+              alt="Cocktail at Ryuu Sushi Lounge bar"
               width={800}
               height={400}
               className="w-full h-full object-cover"

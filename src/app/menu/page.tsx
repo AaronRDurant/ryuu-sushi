@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Menu",
   description:
-    "Signature rolls, classic house rolls, specialty and tempura rolls, sushi platters, and more. Ryuu Sushi Lounge — Grosse Pointe and Plymouth, Michigan.",
+    "Signature rolls, classic house rolls, specialty and tempura rolls, sushi platters, and more. Ryuu Sushi Lounge in Plymouth, Michigan.",
 };
 
 export default function MenuPage() {

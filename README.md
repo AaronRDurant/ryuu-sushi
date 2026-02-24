@@ -1,6 +1,6 @@
 # Ryuu Sushi Lounge
 
-The website for [Ryuu Sushi Lounge](https://www.ryuusushi.com), which offers sushi and Japanese cuisine at two Michigan locations.
+The website for [Ryuu Sushi Lounge](https://www.ryuusushi.com), which offers sushi and Japanese cuisine in Plymouth, Michigan.
 
 ## Tech stack
 

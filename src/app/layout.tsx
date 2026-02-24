@@ -18,12 +18,12 @@ const barlowCondensed = Barlow_Condensed({
 export const metadata: Metadata = {
   title: { default: "Ryuu Sushi Lounge", template: "%s — Ryuu Sushi Lounge" },
   description:
-    "Fresh, artfully crafted sushi and Japanese cuisine in Grosse Pointe and Plymouth, Michigan. Signature rolls, omakase, and unforgettable dining.",
+    "Fresh, artfully crafted sushi and Japanese cuisine in Plymouth, Michigan. Signature rolls, omakase, and unforgettable dining.",
   metadataBase: new URL("https://www.ryuusushi.com"),
   openGraph: {
     title: "Ryuu Sushi Lounge",
     description:
-      "Fresh, artfully crafted sushi and Japanese cuisine in Grosse Pointe and Plymouth, Michigan.",
+      "Fresh, artfully crafted sushi and Japanese cuisine in Plymouth, Michigan.",
     url: "https://www.ryuusushi.com",
     siteName: "Ryuu Sushi Lounge",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ryuu Sushi Lounge",
     description:
-      "Fresh, artfully crafted sushi and Japanese cuisine in Grosse Pointe and Plymouth, Michigan.",
+      "Fresh, artfully crafted sushi and Japanese cuisine in Plymouth, Michigan.",
     images: ["/images/og-image.jpg"],
   },
 };

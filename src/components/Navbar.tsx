@@ -75,10 +75,10 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/locations"
+              href="/contact"
               className="text-white/80 hover:text-white transition"
             >
-              Locations
+              Contact
             </Link>
           </li>
         </ul>
@@ -108,7 +108,7 @@ export default function Navbar() {
 
           {/* Menu items (bottom-right aligned) */}
           <ul className="flex flex-col items-end text-xl text-white/90 space-y-6 pr-6 font-heading">
-            {["menu", "about", "locations"].map((slug) => (
+            {["menu", "about", "contact"].map((slug) => (
               <li key={slug}>
                 <Link
                   href={`/${slug}`}
