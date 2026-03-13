@@ -10,7 +10,7 @@ interface SplitSectionProps {
 export default function SplitSection({
   title,
   text,
-  image = "/images/split-placeholder.jpg",
+  image = "/images/Ryuu-Sushi-presentation.jpg",
   reverse,
 }: SplitSectionProps) {
   return (

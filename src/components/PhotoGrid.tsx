@@ -2,47 +2,45 @@ import Image from "next/image";
 
 export default function PhotoGrid() {
   return (
-    <section className="py-16 px-4">
-      <div className="flex flex-col md:flex-row gap-3 max-w-4xl mx-auto">
-        {/* Left: Portrait image */}
-        <div className="w-full md:w-1/2 h-[28rem]">
+    <section
+      className="w-full py-12 md:py-16"
+      aria-label="Food and drink at Ryuu Sushi Lounge"
+    >
+      <div className="grid w-full grid-cols-1 gap-0 md:grid-cols-3">
+        <figure className="relative aspect-[3/4] w-full overflow-hidden bg-black">
           <Image
-            src="/images/Ryuu-Sushi-entrance.jpg"
-            alt="Ryuu Sushi Lounge restaurant entrance"
-            width={600}
-            height={850}
-            className="w-full h-full object-cover"
+            src="/images/Ryuu-Sushi-menu-options.jpg"
+            alt="Assortment of sushi rolls and sashimi at Ryuu Sushi Lounge"
+            fill
+            sizes="(max-width: 768px) 100vw, 33.33vw"
+            className="object-cover object-center"
             placeholder="blur"
-            blurDataURL="/images/Ryuu-Sushi-entrance.jpg"
+            blurDataURL="/images/Ryuu-Sushi-menu-options.jpg"
             priority
           />
-        </div>
-
-        {/* Right: Two stacked horizontal images */}
-        <div className="w-full md:w-1/2 flex flex-col gap-3 h-[28rem]">
-          <div className="h-1/2">
-            <Image
-              src="/images/Ryuu-Sushi-cocktail.jpg"
-              alt="Cocktail at Ryuu Sushi Lounge bar"
-              width={800}
-              height={400}
-              className="w-full h-full object-cover"
-              placeholder="blur"
-              blurDataURL="/images/Ryuu-Sushi-entrance.jpg"
-            />
-          </div>
-          <div className="h-1/2">
-            <Image
-              src="/images/Ryuu-Sushi-opening.jpg"
-              alt="Ryuu Sushi meal at sneak peek event"
-              width={800}
-              height={400}
-              className="w-full h-full object-cover"
-              placeholder="blur"
-              blurDataURL="/images/Ryuu-Sushi-entrance.jpg"
-            />
-          </div>
-        </div>
+        </figure>
+        <figure className="relative aspect-[3/4] w-full overflow-hidden bg-black">
+          <Image
+            src="/images/Ryuu-Sushi-cocktails-martini.jpg"
+            alt="Cocktail at Ryuu Sushi Lounge"
+            fill
+            sizes="(max-width: 768px) 100vw, 33.33vw"
+            className="object-cover object-center"
+            placeholder="blur"
+            blurDataURL="/images/Ryuu-Sushi-cocktails-martini.jpg"
+          />
+        </figure>
+        <figure className="relative aspect-[3/4] w-full overflow-hidden bg-black">
+          <Image
+            src="/images/Ryuu-Sushi-cocktails-bar.jpg"
+            alt="Cocktails at Ryuu Sushi Lounge"
+            fill
+            sizes="(max-width: 768px) 100vw, 33.33vw"
+            className="object-cover object-center"
+            placeholder="blur"
+            blurDataURL="/images/Ryuu-Sushi-cocktails-bar.jpg"
+          />
+        </figure>
       </div>
     </section>
   );
