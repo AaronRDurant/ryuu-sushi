@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Barlow_Condensed, Inter } from "next/font/google";
+import Script from "next/script";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "./globals.css";
@@ -80,6 +81,15 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        {/* Privacy-friendly analytics by Plausible — https://www.ryuusushi.com */}
+        <Script
+          src="https://plausible.io/js/pa-dSlAsr-NHsv9KNSnJ-Nt5.js"
+          strategy="afterInteractive"
+        />
+        <Script id="plausible-init" strategy="afterInteractive">
+          {`window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+plausible.init()`}
+        </Script>
       </body>
     </html>
   );
