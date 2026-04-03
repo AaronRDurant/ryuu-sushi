@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Visit Ryuu Sushi Lounge in downtown Plymouth or get in touch by email. Address, hours, and contact.",
+    "Visit Ryuu Sushi Lounge in downtown Plymouth. Open daily 4–10 pm. Address, email, and contact.",
 };
 
 export default function ContactPage() {
@@ -38,11 +38,7 @@ export default function ContactPage() {
             <p className="font-semibold uppercase text-sm tracking-wide text-white/60 mb-1">
               Hours
             </p>
-            <p>
-              Tue–Thu &amp; Sun: 4–10 pm
-              <br />
-              Fri–Sat: 4–11 pm
-            </p>
+            <p>Daily: 4–10 pm</p>
           </div>
         </section>
 
